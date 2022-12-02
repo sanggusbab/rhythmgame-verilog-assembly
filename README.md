@@ -1,4 +1,4 @@
-# developed By **LeeSamgin & **customized
+# developed By ****LeeSamgin** & **customized**
 
 ### git Address
 #####   https://github.com/sanggusbab/DgtSys_RhythmGame.git
