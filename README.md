@@ -4,12 +4,15 @@
     RISC-V (something customized)
 ### Rhythm Game.pptx
     Presentation file on Digital System class
+### Folder: Simulation_Capture/
+    There are Wave Captures & Big size vslm.wlf(Cannot Upload to Github)
+    You can find vslm.wlf at "https://1drv.ms/u/s!AvEVTmJBi2B_hIph5kI8OPaSQKS85g"
 ### git Address
     https://github.com/sanggusbab/DgtSys_RhythmGame.git
 ### Rhythm_Game_State_Design.ai
     RhythmGame Status Diagream
 ### hbe-combo2_user's_guide_v10-1016_.pdf
-    published by banback // www.hanback.co.kr 
+    published by banback // www.hanback.co.kr
 ### Status_Info.xlsx
     Assembly Codes Interpreter, Codes, Melody Interpreter
 ### Register Reference
@@ -24,7 +27,6 @@
     x22: (DataMemory Address)
     x2: WindowStatus
     x0: hardwired zero
-
 ### Quartus Pin Planner
     clk   Input   PIN_AB11
     interrupt[0]   Input   PIN_J4

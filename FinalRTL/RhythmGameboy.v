@@ -5,15 +5,7 @@ module RhythmGameboy #(parameter WIDTH = 32)(clk, interrupt, led_A_seg, led_A_co
     output[7:0] led_A_seg,led_A_com,led_Single;
     output[11:0] led_RGB;
     output piezo;
-    /*
-    wire[15:0] SRAM_DQ;
-    output[17:0] SRAM_ADDR;
-    output SRAM_OE; // Sram output Enable
-    output SRAM_WE; // Sram Write Enable
-    output SRAM_CS; // Sram Chip Select
-    topsram TS01(clk, PMOD, SRAM_ADDR, SRAM_DQ, SRAM_OE, SRAM_WE, SRAM_CS);
-    wire[3:0] PMOD;
-*/
+    
     wire[63:0] MainGraphic;
     wire[WIDTH-1:0] SingleGraphic,Amplitude,ProgressBar,FrequencyPiezo,LedRGBBright;
     wire[WIDTH-1:0] ALUOut,regWriteData,Instruction,ReadData1,ReadData2,readData;
@@ -54,3 +46,13 @@ module RhythmGameboy #(parameter WIDTH = 32)(clk, interrupt, led_A_seg, led_A_co
     end
 
 endmodule
+
+    /*
+    wire[15:0] SRAM_DQ;
+    output[17:0] SRAM_ADDR;
+    output SRAM_OE; // Sram output Enable
+    output SRAM_WE; // Sram Write Enable
+    output SRAM_CS; // Sram Chip Select
+    topsram TS01(clk, PMOD, SRAM_ADDR, SRAM_DQ, SRAM_OE, SRAM_WE, SRAM_CS);
+    wire[3:0] PMOD;
+*/
