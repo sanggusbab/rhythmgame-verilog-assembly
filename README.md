@@ -1,5 +1,9 @@
 # developed
-    By Lee,Sang-Min & Lee,Seung-Hyun
+    By Lee,Sang-Min & Lee,Seung-
+## Intruction Grammer
+    RISC-V (something customized)
+### Rhythm Game.pptx
+    Presentation file on Digital System class
 ### git Address
     https://github.com/sanggusbab/DgtSys_RhythmGame.git
 ### Rhythm_Game_State_Design.ai
@@ -20,5 +24,3 @@
     x22: (DataMemory Address)
     x2: WindowStatus
     x0: hardwired zero
-### Intruction Grammer
-    RISC-V (something customized)
