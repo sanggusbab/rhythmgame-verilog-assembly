@@ -1,6 +1,5 @@
-# developed By
-    ****LeeSamgin** & **customized**
-
+# developed
+    By **Lee, Sang - Min** & **Lee, Seung - Hyun**
 ### git Address
     https://github.com/sanggusbab/DgtSys_RhythmGame.git
 ### Rhythm_Game_State_Design.ai
