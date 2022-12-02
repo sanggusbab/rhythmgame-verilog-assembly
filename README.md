@@ -6,6 +6,8 @@
     RhythmGame Status Diagream
 ### hbe-combo2_user's_guide_v10-1016_.pdf
     published by banback // www.hanback.co.kr 
+### Status_Info.xlsx
+    Assembly Codes Interpreter, Codes, Melody Interpreter
 ### Register Reference
     x31: Time wire
     x29: Interrupt wire
