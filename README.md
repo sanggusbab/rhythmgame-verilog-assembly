@@ -1,12 +1,12 @@
 # developed
-    By Lee,Sang-Min & Lee,Seung-
+    By Lee,Sang-Min & Lee,Seung-Hyun
 ## Intruction Grammer
     RISC-V (something customized)
 ### Rhythm Game.pptx
     Presentation file on Digital System class
 ### Folder: Simulation_Capture/
     There are Wave Captures & Big size vslm.wlf(Cannot Upload to Github)
-    You can find vslm.wlf at "https://1drv.ms/u/s!AvEVTmJBi2B_hIph5kI8OPaSQKS85g"
+    You can find vslm.wlf at "https://1drv.ms/u/s!AvEVTmJBi2B_hItBenlGQnsY-cHkVA?e=Lgt17z" only read available until 06/01/2023
 ### git Address
     https://github.com/sanggusbab/DgtSys_RhythmGame.git
 ### Rhythm_Game_State_Design.ai
