@@ -4,7 +4,7 @@ module ALUControl(Aluop,funct7,funct3,Control,jump);
     input [2:0] funct3;
     input jump;
     output reg [3:0] Control;
-    always @(*) begin
+    always @(Aluop) begin
         case (Aluop)
             2'b00 : begin
                 if(jump==1) Control <= 4'b1001; // jal

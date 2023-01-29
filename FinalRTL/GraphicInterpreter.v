@@ -1,7 +1,7 @@
 module GraphicInterpreter(led_A_seg_Natural, led_A_seg);
     input[7:0] led_A_seg_Natural;
     output reg[7:0] led_A_seg;
-    always @(*) begin
+    always @(led_A_seg_Natural) begin
         case(led_A_seg_Natural)
             0: led_A_seg = 8'b11111100;
             1: led_A_seg = 8'b01100000;

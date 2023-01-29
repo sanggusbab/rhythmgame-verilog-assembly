@@ -1,7 +1,7 @@
 module singleGraphicInterpreter(SingleGraphic,led_Single);
     input[7:0] SingleGraphic;
     output reg[7:0] led_Single;
-    always @(*) begin
+    always @(SingleGraphic) begin
         case(SingleGraphic)
             0: led_Single = 8'b11111100;
             1: led_Single = 8'b01100000;

@@ -6,7 +6,7 @@ module mainGraphicInterpreter(clk, MainGraphic, led_A_com, led_A_seg);
     reg[7:0] led_A_seg_Natural;
     reg[2:0] counter = 0;
 
-    GraphicInterpreter GI01(led_A_seg_Natural, led_A_seg);
+    GraphicInterpreter GraphicInterpreter01(led_A_seg_Natural, led_A_seg);
 
     always @(posedge clk) begin
         case(counter)

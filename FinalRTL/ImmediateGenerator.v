@@ -1,7 +1,7 @@
 module Immediategeneration #(parameter Width = 32)(In, Out);
     input [Width-1:0] In;
     output reg [Width-1:0] Out;
-    always @(*) begin
+    always @(In[6:0]) begin
         case(In[6:0])
             7'b0000011 : Out <= {{{Width-12}{In[31]}},In[31:20]};
             7'b0100011 : Out <= {{{Width-12}{In[31]}},In[31:25],In[11:7]};

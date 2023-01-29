@@ -4,7 +4,7 @@ module mainController(Opcode,ALUSrc,MemtoReg,RegWrite, MemRead, MemWrite, Branch
     output [1:0] Aluop;
     reg [8:0] control;
     assign {ALUSrc,MemtoReg,RegWrite,MemRead,MemWrite,Branch,jump,Aluop} = control;
-    always @(*) begin
+    always @(Opcode) begin
         case(Opcode)
             7'b0110011 : control <= 9'b001000010; // R-type
             7'b0000011 : control <= 9'b111100000; // lw-type
