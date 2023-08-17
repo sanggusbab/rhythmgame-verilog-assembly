@@ -1,5 +1,5 @@
 # developed
-    By Lee,Sang-Min & Lee,Seung-Hyun
+    By Lee,Sang-Min
 ## Intruction Grammer
     RISC-V (something customized)
 ### Rhythm Game.pptx
